@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=defice-width, initial-scale=1.0">
+        <meta name="author" content="Mauricio Carvalho">
+        <meta name="description" content="Assistência técnica de celulares">
+        <meta name="keywords" content="Celulares, Conserto, Smartphones, Assistência">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/bootstrap.min.js"></script>
+         <script src="javascript/jquery-3.2.1.min.js"></script>
+        <script src="javascript/script.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="icon" href="imagens/logojeffcell.png" type="image/x-png"/>
+        <title>JeffCell - Assistência Técnica</title>
+    </head>
+    <body>
+        <!--Menu-->
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                   <img class ="logolg2" src="imagens/logolg2.png">
+                </a>
+            </div>
+            <nav>
+                <ul> 
+                    <li><a  href="index.html" id="reverterI">Inicio</a></li>
+                    <li><a href="orcamento.php">Orçamento</a></li>
+                    <li><a href="https://www.google.com/maps/place/R.+Cl%C3%A1udio+Savieto,+802+-+Jardim+Zaira,+Mau%C3%A1+-+SP,+09320-450/@-23.6565296,-46.4376081,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce6eb3c1480681:0x3947314021e7a671!8m2!3d-23.6565296!4d-46.4354194">Localização</a></li>
+                    <li><a href="#contato" id="reverterC">Contato</a></li>
+                    <li><a href="#sobre" id="reverterS">Sobre</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle"><i class="fas fa-bars" id="reverterM"></i></div>
+        </header>
+            <div id="home">
+                <div class="landing-text">
+                    <h1>JeffCell</h1>
+                    <h3>Assistência Técnica</h3>
+                    <h3>Acessórios</h3>
+                    <h3>Celulares, Tablets, Ipad, Iphone</h3>
+                    <a href="orcamento.php"  class="btn btn-default btn-lg" id="botao">Orçamento</a>
+                </div>
+            </div>
+            <!--sobre-->
+            <section id="bdy">
+                <div class="padding" class="up">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6 ">
+                                <img src="imagens/logojeffcell.jpg"  class="logolg" id="sobre">
+                            </div>
+                                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                                    <div class="fixed">
+                                        <h2>Sobre a Jeffcell</h2>
+                                        <p class="lead">
+                                            A Jeffcell tem a <span class="mvv">missão</span> de fornecer um 
+                                            serviço de manutenção de smartphones e tablets  
+                                            com qualidade, e honestidade com o cliente.
+                                            Nós buscamos ser referência em assistência técnica 
+                                            em Mauá, na cidade de São  Paulo e regiões. 
+                                            Nossão <span class="mvv">visão</span>  de futuro baseia-se na consolidação
+                                            de um bom trabalho com o cliente e na expansão de 
+                                            nossos serviços para demais regiões do estado de São Paulo.
+                                            Temos como objetivo principal colocar 
+                                            nossos <span class="mvv">valores</span>  na negociação com o cliente.
+                                            Sempre com honestidade, clareza,
+                                            peças e produtos de qualidade.
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>           
+                <!--serviços-->
+                <div id="servicos">
+                        <div class="landing-text">
+                            <a href="#bg8" id="botao" class="btn btn-default btn-lg servicos">
+                                <span id="botserv">Serviços</span>
+                            </a>
+                        </div>
+                    </div>
+                <div class="container-fluid" id="bg8">
+                    <div class="container cont">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 boxxx">
+                            <div class="boxx">
+                                <div class="box">
+                                    <div class="icon1">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="content1">
+                                        <h3>Troca de Tela</h3>
+                                        <p>Troca de tela frontal e aplicação de  película de vidro</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 boxxx">
+                            <div class="boxx">
+                                <div class="box">
+                                    <div class="icon2">
+                                        <i class="fa fa-plug" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="content2">
+                                        <h3>Conector</h3>
+                                        <p>Substituição de conectores de carga e troca de bateria</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 boxxx"> 
+                            <div class="boxx">
+                                <div class="box">
+                                    <div class="icon3">
+                                        <i class="fa fa-power-off" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="content3">
+                                        <h3>Botão power</h3>
+                                        <p>Conserto de botão power, touch screen e auto falantes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 boxxx">
+                           <div class="boxx">
+                                <div class="box">
+                                <div class="icon4">
+                                    <i class="fa fa-bath" aria-hidden="true"></i>
+                                </div>
+                                    <div class="content4">
+                                        <h3 class="pbranco">Banho químico</h3>
+                                        <p class="pbranco">Limpeza de placas com banho químico (desoxidação)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>  
+                 <!--acessórios-->
+                <div id="acessorios">
+                        <div class="landing-text">
+                            <a href="#bg9" id="botao" class="btn btn-default btn-lg acessorios"><span id="acess">Acessórios</span></a>
+                        </div>
+                    </div>
+                <div class="container-fluid" id="bg9">
+                    <div class="container cont">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 boxxx">
+                            <div class="boxx">
+                                <div class="boxf">
+                                    <div class="imgBox">
+                                        <img src="imagens/ac1.jpg">
+                                    </div>
+                                    <div class="detalhes">
+                                        <div class="conteudo">
+                                                <h2>Capas anti-impácto</h2>
+                                                <p>Nós temos capas de diversos modelos e estilos para seu aparelho (solicite o catálogo)</p>
+                                            </div>
+                                        </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 boxxx">
+                            <div class="boxx">
+                                <div class="boxf">  
+                                    <div class="imgBox">
+                                        <img src="imagens/ac3.jpg">
+                                    </div>
+                                    <div class="detalhes">
+                                        <div class="conteudo">
+                                            <h2>Carregadores</h2>
+                                            <p>Trabalhamos com carregadores de todos os modelos</p>
+                                        </div>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 boxxx">
+                             <div class="boxx">
+                                <div class="boxf"> 
+                                    <div class="imgBox">
+                                        <img src="imagens/ac2.jpg">
+                                    </div>
+                                    <div class="detalhes">
+                                        <div class="conteudo">
+                                            <h2>Radios Bluetooth</h2>
+                                            <p>Temos diversos radios bluetooth e caixas de som (solicite o catálogo)</p>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 boxxx">
+                            <div class="boxx">
+                                <div class="boxf"> 
+                                    <div class="imgBox">
+                                        <img src="imagens/ac4.jpg">
+                                      </div>
+                                    <div class="detalhes">
+                                        <div class="conteudo">
+                                            <h2>Bastão de Selfie</h2>
+                                            <p>Monopé bastante utilizado na fotografia,com botão disparador</p>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div id="loca" class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Localização-->
+                <a href="https://www.google.com/maps/place/R.+Cl%C3%A1udio+Savieto,+802+-+Jardim+Zaira,+Mau%C3%A1+-+SP,+09320-450/@-23.6565296,-46.4376081,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce6eb3c1480681:0x3947314021e7a671!8m2!3d-23.6565296!4d-46.4354194">
+                   <div class="container locali">
+                          
+                   </div> 
+                </a> 
+        </section>
+            <div class="container voltar" >
+                <a href="index.html">Voltar ao topo</a>
+            </div>
+        
+        <!--Rodapé-->
+        <span id="contato"></span>
+        <footer class="container-fluid text-center" id="baixo">
+            <div  class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="foot">
+                        <a href="5511941495581"><h4><i class="fab fa-whatsapp"></i>11 94149-5581</h4></a>
+                            <h3>Contato</h3>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="foot">
+                        <a href="https://www.facebook.com/jeffersonjardi/"><i class="fab fa-facebook-f"></i></a>
+                         <a href="https://www.instagram.com/jeffersondesouzajardim/"><i class="fab fa-instagram"></i></a>
+                          <a href="https://www.youtube.com/channel/UCPkR1H5GE66Hp7QRMkuaIuQ"><i class="fab fa-youtube"></i></a>
+                         <h3>Mídias</h3>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="foot">
+                        <div class="pag">
+                            <img src="imagens/visa_master.png">
+                        </div>
+                        <h3>Pagamento</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="cop">
+                <p> <small> &copy Copyright 2019 </small> </p> 
+                <p><small>JeffCell - Assistência Técnica.</small></p>
+            </div>
+        </footer>
+        
+    </body>
+</html>
